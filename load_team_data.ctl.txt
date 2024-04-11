@@ -1,0 +1,11 @@
+LOAD DATA
+INFILE 'C:\Users\92334\Desktop\Ali\University\Semester 4\Database\Assignment 2\team_data.csv'
+TRUNCATE
+INTO TABLE EMPS
+fields terminated by ","
+(
+	TNAME,
+	HOME_STADIUM,
+	WINS,
+	LOSSES
+)
